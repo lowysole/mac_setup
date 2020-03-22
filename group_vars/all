@@ -1,0 +1,10 @@
+# Localhost variables
+local_user: lowy
+
+# repositories
+repo_vimrc: https://github.com/mcapell/vimrc.git
+
+# Binary versions
+bin_python:  # first one will be set as system's default
+  - 3.6.8
+  - 3.8.0

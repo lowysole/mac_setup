@@ -1,0 +1,6 @@
+- hosts: localhost
+  vars_files:
+      - vars/roles
+  roles:
+      - { role: utility, when: role_utility == true }
+      - { role: development, when: role_development == true }
